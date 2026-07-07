@@ -1,28 +1,28 @@
 class UfoCli < Formula
   desc "Local rover CLI for UFO"
   homepage "https://getufo.dev"
-  version "0.6.1"
+  version "0.6.2"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/fengsi/ufo/releases/download/v0.6.1/ufo-aarch64-apple-darwin.tar.gz"
-      sha256 "842e9b17cd6342601de77795d85a231e77cd699fb973c3f302590c566ba222ec"
+      url "https://github.com/fengsi/ufo/releases/download/v0.6.2/ufo-aarch64-apple-darwin.tar.gz"
+      sha256 "3036614117abee515fdea91bab07468a3a888ac6abbb9315475801151d1fd8f4"
     end
     on_intel do
-      url "https://github.com/fengsi/ufo/releases/download/v0.6.1/ufo-x86_64-apple-darwin.tar.gz"
-      sha256 "95e220c9212963cc940bd5d642abb5ed5072889fc8399ddff19525f769072145"
+      url "https://github.com/fengsi/ufo/releases/download/v0.6.2/ufo-x86_64-apple-darwin.tar.gz"
+      sha256 "85e1e88202ae8637ff4680bc78350e6f6557eba38b87930b1b9b0a8c302dd5cb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fengsi/ufo/releases/download/v0.6.1/ufo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f404895d451590e9335bca9961d736eaa1eb3b2dc8baa78b199e6b0540774a3a"
+      url "https://github.com/fengsi/ufo/releases/download/v0.6.2/ufo-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ab025618efb7dde5b78b012d3d751e5292b6c634c4ae2c674a7feaa24bfb5855"
     end
     on_intel do
-      url "https://github.com/fengsi/ufo/releases/download/v0.6.1/ufo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3fc14f6c094dd1f1d603705b6ca3ef7e16ff0bd16eb14af53acb744c00b816d2"
+      url "https://github.com/fengsi/ufo/releases/download/v0.6.2/ufo-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "43ba09d33b7e3c70501eec8eb9d213a334763a27ca6a4987d7a0f7ea338cd967"
     end
   end
 
